@@ -8,6 +8,7 @@ import threading
 from datetime import datetime
 from PIL import Image, ImageDraw
 import time
+import sys
 from tendo import singleton
 
 try:
