@@ -1,3 +1,19 @@
+#################################################################
+# Name: ShowUptime
+# Version: 1.0
+# Author: P A G O O K
+# License:
+# This program is free software; you can redistribute it and/or 
+# modify it under the terms of the GNU General Public License as 
+# published by the Free Software Foundation; either version 2 of 
+# the license, or any later version.
+#
+# This program is distributed in the hope that it will be useful, 
+# but WITHOUT ANY WARRANTY; without even the implied warranty of 
+# merchantability or fitness for a particular purpose. 
+# See the GNU General Public License for more details.
+#################################################################
+
 #Python 3.13.12
 import pystray
 from pystray import MenuItem as MenuItem, Menu
@@ -28,7 +44,7 @@ try:
 
     def start_notification(TrayIconGreen):
         ShowUptime.visible = True
-        ShowUptime.notify("ShowUptime started", title=" ")
+        ShowUptime.notify("ShowUptime has started", title=" ")
 
     def update_label(ShowUptime):
         global aktuelle_systemzeit
