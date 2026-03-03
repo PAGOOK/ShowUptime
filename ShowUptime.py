@@ -12,6 +12,8 @@
 # but WITHOUT ANY WARRANTY; without even the implied warranty of 
 # merchantability or fitness for a particular purpose. 
 # See the GNU General Public License for more details.
+#
+# Other licenses that are used: BSD 3-Clause, MIT, PSF-2.0, ZPL-2.1
 #################################################################
 
 #Python 3.13.12
@@ -55,9 +57,6 @@ try:
             minutes, seconds = divmod(rem, 60)
             time.sleep(1)
             ShowUptime.title = f"["+socket.gethostname()+"]\n"+f"Uptime: {days} Days, {hours} Hours, {minutes} Minutes, {seconds} Seconds"
-
-    def uptime_label(MenuItem):
-        ShowUptime.title = f"{aktuelle_systemzeit}"
 
     main_menu = (MenuItem("ShowUptime [Version 1.0 by P A G O O K]", lambda: None),
     pystray.Menu.SEPARATOR,
