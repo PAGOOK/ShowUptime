@@ -1,4 +1,4 @@
-#################################################################
+#########################################################################
 # Name: ShowUptime
 # Version: 1.0
 # Author: P A G O O K
@@ -14,7 +14,8 @@
 # See the GNU General Public License for more details.
 #
 # Other licenses that are used: BSD 3-Clause, MIT, PSF-2.0, ZPL-2.1
-#################################################################
+# See the BSD 3-Clause-, MIT-, PSF-2.0, ZPL-2.1-License for more details.
+#########################################################################
 
 #Python 3.13.12
 import pystray
